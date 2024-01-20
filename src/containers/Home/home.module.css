@@ -1,0 +1,50 @@
+.homeback{
+	background-color: whitesmoke !important;
+}
+
+.sliderclose {
+	background-color: black;
+	color: whitesmoke;
+	width: 60px;
+	height: 300px;
+	position: fixed;
+	right: 0px;
+	top: 300px;
+	display:  flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.sliderclose h1 {
+	transform: rotate(-90deg);
+	position: relative;
+	/*top: 100px;*/
+}
+.slideropen img {
+	height: 300px;
+	width: 500px;
+
+}
+
+
+.slideropen {
+	border:  1px solid black;
+	width: 500px;
+	height: 300px;
+	position: fixed;
+	right: 0px;
+	top: 300px;
+	display: flex;
+	align-items: center;
+}
+.slideropen span {
+	height: 300px;
+	width:  100px;
+	background-color: black;
+	font-size: 36px;
+	color: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-weight: bold;
+}

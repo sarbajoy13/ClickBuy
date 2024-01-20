@@ -1,0 +1,40 @@
+.bg-headercolor {
+  background-color: #3c5186 !important;
+}
+
+.fs-24 {
+  font-size: 24px!important;
+  font-weight: bold!important;
+}
+.fs-20 {
+  font-size: 20px!important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.no-gutter.row,
+.no-gutter.container,
+.no-gutter.container-fluid{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.no-gutter>[class^="col-"]{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.footer a{
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.footer a:hover{
+  color: gray;
+}
+
+.header-home:hover{
+  color: gray;
+}

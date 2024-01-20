@@ -1,0 +1,6 @@
+.contact{
+	color: white  !important;
+}
+.contact:hover {
+	color: black !important;
+}
